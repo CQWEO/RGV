@@ -1,0 +1,15 @@
+Local= "player"
+Local do noclip()
+Color3.new(0,1,0)
+Textname."Noclip RGV"
+Title = "Noclip create by RGV"
+Local = 
+Noclip.ColorShift_Bottom =
+Color3.new(0,1,0)
+Noclip.ColorShift_Top =
+Color3.new(0,1,0)
+end
+
+di noclip()
+
+NoclipChanged:Connect(do noclip)
